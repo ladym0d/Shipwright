@@ -1,6 +1,5 @@
 # Shipwright (Blender 2.79 AI Copilot)
 
-This is the development repo for the project powering the YouTube series  
 **“Me and My AI Copilot Build a Starship”**.
 
 ## 📂 Project Structure
@@ -11,10 +10,11 @@ This is the development repo for the project powering the YouTube series
 
 ## 🚀 Getting Started
 1. See See [docs/github_basics.md](docs/github_basics.md) if you’re new to Git/GitHub.
-2. Follow `docs/setup.md` to get the local environment running.
-3. Check `docs/daily_task_list.md` for everyday workflow steps.
+2. Follow See [docs/github_basics.md](docs/github_basics.md) to get the local environment running.
+3. Check See [docs/github_basics.md](docs/github_basics.md) for everyday workflow steps.
 
 ## 🎥 Public Series
 This repo powers the educational/content series  
 **“Me and My AI Copilot Build a Starship”**, published on YouTube, TikTok, Instagram, and Bluesky.  
 Patreon supporters (“the crew”) get behind-the-scenes extras.
+
