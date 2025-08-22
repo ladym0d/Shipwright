@@ -15,6 +15,9 @@
 
 ## 🎥 Public Series
 This repo powers the educational/content series  
-**“Me and My AI Copilot Build a Starship”**, published on YouTube, TikTok, Instagram, and Bluesky.  
+**“Me and My AI Copilot Build a Starship”**, published on [![YouTube](https://img.shields.io/badge/YouTube-Channel-red)](https://www.youtube.com/@MeMyAICopilot)
+[![Bluesky](https://img.shields.io/badge/Bluesky-@YOUR_HANDLE-1DA1F2)](https://bsky.app/profile/@meandmyai.bsky.social‬)
+
 Patreon supporters (“the crew”) get behind-the-scenes extras.
+
 
