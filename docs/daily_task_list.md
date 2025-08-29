@@ -14,4 +14,4 @@
 - ✅ Confirmed arrows and captions display at the right scale in test recordings.
 - 📌 Milestone: Browser overlay is functional and ready for live Blender recordings.
 - 🔜 Next step: integrate overlay into an actual Blender workflow test (arrows + captions during modeling).
--   Personal milestone: edited daily_task_list.md
+-   Personal milestone: edited daily_task_list.md manually instead of copy-paste)
