@@ -1,3 +1,4 @@
+
 # Daily Task Log
 ## Sunday, Aug 24, 2025
 
@@ -15,3 +16,20 @@
 - 📌 Milestone: Browser overlay is functional and ready for live Blender recordings.
 - 🔜 Next step: integrate overlay into an actual Blender workflow test (arrows + captions during modeling).
 -   Personal milestone: edited daily_task_list.md manually instead of copy-paste)
+
+## Monday, September 1, 2025
+
+- Set up OBS → VirtualCam → Discord “Bridge” workflow.  
+- Verified that the Blender + overlay feed can be streamed into Discord voice/video channels.  
+- Successfully tested using a second account (Reya McVay) to view the feed from the Bridge channel.  
+- Confirmed that the setup works for human collaborators, but noted that ChatGPT cannot directly access Discord’s video feed.  
+- Decided to build a separate Shipwright shim (using OBS WebSocket + local dashboard) as the long-term solution for AI copilot integration.
+## Tuesday, September 2, 2025
+
+- Installed Node.js and npm on the Surface Pro.  
+- Added required npm packages (`obs-websocket-js`, `express`, `dotenv`) to the Shipwright shim.  
+- Built the first version of the shim (`app.cjs`) for connecting OBS to a local dashboard and overlay relay.  
+- Configured `.env` with OBS WebSocket settings (host, port, password).  
+- Fixed authentication issue by correcting the saved password.  
+- Successfully connected the shim to OBS WebSocket 🎉.  
+- Dashboard now running at `http://localhost:8788` and overlay relay at `ws://localhost:8787`.  
