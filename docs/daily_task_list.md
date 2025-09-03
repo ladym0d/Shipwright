@@ -33,3 +33,10 @@
 - Fixed authentication issue by correcting the saved password.  
 - Successfully connected the shim to OBS WebSocket 🎉.  
 - Dashboard now running at `http://localhost:8788` and overlay relay at `ws://localhost:8787`.  
+## Wednesday, September 3, 2025
+
+- Debugged and cleaned up the Shipwright shim (`app.cjs`).
+- Fixed duplicate/typo issues and replaced undefined variables with the correct source name.
+- Verified `/screenshot` endpoint successfully returns live OBS frames from the `blender` source.
+- Confirmed the dashboard refreshes with updated screenshots.
+- Reached first full end-to-end test: OBS → shim → dashboard → overlay → OBS loop works as intended.
