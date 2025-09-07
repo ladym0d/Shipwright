@@ -40,3 +40,19 @@
 - Verified `/screenshot` endpoint successfully returns live OBS frames from the `blender` source.
 - Confirmed the dashboard refreshes with updated screenshots.
 - Reached first full end-to-end test: OBS → shim → dashboard → overlay → OBS loop works as intended.
+## Saturday, September 6, 2025
+
+- Worked through multiple iterations of the `app.cjs` shim to stabilize OBS → dashboard → overlay connections.
+- Fixed duplicate WebSocket close handlers and repaired truncated HTML in the dashboard template.
+- Restored the **Show Caption** button in the dashboard UI.
+- Tuned refresh rate from 3 seconds → ~333 ms (~3 fps).
+- Resized screenshots to 800×450 for better performance on the Surface Pro.
+- Verified that arrows and captions trigger correctly in OBS and live screenshots refresh at the faster rate.
+- Ended the day with the code unstable, but planned to rebuild clean the next session.
+## Sunday, September 7, 2025
+
+- Rebooted Surface Pro and confirmed the shim + dashboard are working smoothly after the previous day’s rebuild attempt.  
+- Reconstructed `app.cjs` from earlier conversation notes in Notepad, applying the window size and screenshot refresh modifications carefully line by line.  
+- Verified dashboard now shows arrows and captions reliably, with screenshots refreshing ~3 times per second.  
+- Achieved a fully stable loop: OBS → shim → dashboard → overlay → OBS.  
+- Ready to proceed with next milestone: adding Blender event logging (mode changes, session markers) to complement visuals.
