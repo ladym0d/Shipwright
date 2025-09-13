@@ -1,4 +1,11 @@
+# secrets
 .env
-logs/
-public/shots/
+
+# dependencies
 node_modules/
+
+# raw working area (never commit)
+runtime/
+
+# optional: keep junk out of public shots, but allow your picks
+public/shots/tmp/
