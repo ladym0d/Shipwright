@@ -1,0 +1,1 @@
+{"name":"shipwright-shim","version":"0.1.0","type":"module","scripts":{"start":"node app.js"},"dependencies":{"dotenv":"^16.6.1","express":"^5.1.0","obs-websocket-js":"^5.0.6","ws":"^8.18.0"}}

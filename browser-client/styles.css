@@ -1,0 +1,18 @@
+/* Transparent full-canvas overlay */
+html, body { margin:0; padding:0; background: transparent; height:100%; overflow:hidden; }
+#overlay { position:fixed; inset:0; pointer-events:none; z-index:9999; }
+canvas { width:100%; height:100%; }
+
+/* BIGGER caption + controls */
+#caption{
+  position:absolute; bottom:32px; left:32px; max-width:560px;
+  color:#fff; background:rgba(0,0,0,.6); padding:12px 16px;
+  border-radius:10px; display:none; font:24px/1.35 system-ui, sans-serif;
+}
+#controls{
+  position:absolute; top:18px; left:18px; pointer-events:auto;
+  background:rgba(0,0,0,.45); padding:10px 12px; border-radius:10px;
+  transform: scale(1.6); transform-origin: top left;   /* scale up panel */
+}
+#controls *{ font:18px system-ui, sans-serif; margin-right:8px; }
+#controls input{ padding:6px 8px; min-width:320px; }

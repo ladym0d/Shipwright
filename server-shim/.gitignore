@@ -1,0 +1,4 @@
+.env
+logs/
+public/shots/
+node_modules/
