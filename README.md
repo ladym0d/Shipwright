@@ -1,5 +1,18 @@
 # Shipwright (Blender 2.79 AI Copilot)
 
+## Project Status
+
+**Phase 1 (MVP): COMPLETE ✅**
+
+Golden Path proven twice from cold start with no manual file edits:
+Blender → server-shim → live overlay (captions/arrows) → OBS → share/export.
+
+- Stable OBS settings + step-by-step checklist:  
+  [`server-shim/docs/GOLDEN_PATH.md`](server-shim/docs/GOLDEN_PATH.md)
+- Verify `/health` shows `"overlayClients": 2` (browser + OBS)
+- OBS Browser Source URL: `http://127.0.0.1:8788/` (not Local File)
+
+
 **“Me and My AI Copilot Build a Starship”**.
 
 ## 📂 Project Structure
